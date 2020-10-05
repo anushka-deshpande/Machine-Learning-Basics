@@ -1,12 +1,18 @@
 Data Science:
-An interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from many structured and unstructured data. Companies are using data science to build recommendation models, predicting user behaviour and much more. 
+An interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from many structured and unstructured data. 
+Companies are using data science to build recommendation models, predicting user behaviour and much more. 
 Prescriptive analysis in data science ca be used to make decisions on any time horizon, from immediate to long term.
 
 Artificial Intelligence:
-in lay mans terms, artificial intelligence is intelligence demonstrated by machines, unlike those by humans. It is the ability that can be imparted to computers which enables these machines to understand data, learn from data and make decisions based on what it understands from the patterns the data makes. Using AI, machines can also adjust their knowledge based on the input it recieves. The one important point to be noted is, AI needs a lot of data to learn. 
+in lay mans terms, artificial intelligence is intelligence demonstrated by machines, unlike those by humans. 
+It is the ability that can be imparted to computers which enables these machines to understand data, learn from data and make decisions based on what it understands from the patterns the data makes.
+Using AI, machines can also adjust their knowledge based on the input it recieves. 
+The one important point to be noted is, AI needs a lot of data to learn. 
 
 Machine Learning:
-It is the study of computer algorithms that improve automatically through experience. It is a subset of Artificial Intelligence. It is used in situations where we want the machine to learn from huge amounts of data and then apply that knowledge on new pieces of data. 
+It is the study of computer algorithms that improve automatically through experience. 
+It is a subset of Artificial Intelligence. 
+It is used in situations where we want the machine to learn from huge amounts of data and then apply that knowledge on new pieces of data. 
 Many different types of machine learning models exist:
 1. Supervised Learning
 2. Unsupervised Learning
@@ -14,4 +20,6 @@ Many different types of machine learning models exist:
 4. Reinforced Machine Learning
 
 Deep Learning:
-It is an advancement of ML. It is based on artificial neural networks with representation learning. Many virtual assistants use depp learning to undrstand the requests made by humans (Natural Langage Processing - NLP), the emotion one is displaying and identify the tone of voice used. 
+It is an advancement of ML. 
+It is based on artificial neural networks with representation learning. 
+Many virtual assistants use depp learning to undrstand the requests made by humans (Natural Langage Processing - NLP), the emotion one is displaying and identify the tone of voice used. 
