@@ -1,0 +1,7 @@
+Question:
+Predict the height of the son, when given the height of the father.
+
+Print out:
+    i. the accuracy
+    ii. height of son for some random values
+    
