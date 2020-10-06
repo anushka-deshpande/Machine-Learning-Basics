@@ -1,1 +1,50 @@
+Linear Regression
 
+Definition:
+It is a linear approach to modeling the relationship between a scalar response (having a linear scale) and one or more explanatory variables.
+In case there is only 1 explanatory variable, it is called simple linear regression; for multiple variables, it is called multiple linear regression.
+
+It is originally a field of statistics that is studied as a model for understanding the relation between input and output variables in numeric format. 
+It is also used as a machine learning algorithm.
+
+Different techniques can be used to train or prepare a linear regression model, the most common being "Ordinary Least Squares".
+
+The representation of a linear regression model makes it very simple to understand. 
+The representation is a simple linear equation that combines a set of input values (x) and maps them to a set of predicted output values (y).
+Both x and y are numeric values.
+
+A simple regression model would mirror the equation of a striaght line in 2-D graphics, 
+y = Mx + C
+where M is the slope of line, and c is the y-intercept.
+
+Techniques to prepare a Linear Regression Model:
+1. Simple Linear Regression:
+When we have single input variable, we can use statistics toestimate the coefficients. 
+
+2. Ordinary Least Squares:
+This method is used for more than 1 input variables. 
+This process seeks to minimize the sum of the squared residuals. 
+Meaning, when given a regression line through data points, we,
+  i. calculate the distance of each data point from the regression line
+  ii. square this distance
+  iii. and sum all of the squared errors together
+This is the quantity that we seek to minimize. 
+
+3. Gradient Descent:
+It is also used when there are multiple nput variables to take into account. 
+The method works by starting with random values for each coefficient. 
+The sum of squared errors are calculated for each pair of input and output values.
+Changes to coefficient are made using a learning factor that determines the rate at which the coefficients should be changed.
+This process if repeated until minimum sum of squared error is achieved. 
+We must select the learning rate parameter; it determines the size of the improvement step to be taken.
+It is useful when there is large dataset wither in number of rows or columns. 
+
+4. Regularization:
+These are extensions of the linear regression models that strain to achieve both, minimize the sum of squared error anfd reduce the complexity of the model.
+Two popular examples:
+    i. Lasso Regularisation:
+        where Ordinary Least Squares is modified to also minimize the absolute sum of the coefficients (called L1 regularization).
+        
+    ii. Ridge Regression:
+        where Ordinary Least Squares is modified to also minimize the squared absolute sum of the coefficients (called L2 regularization).
+        
