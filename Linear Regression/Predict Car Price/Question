@@ -1,0 +1,9 @@
+Question:
+Given multiple parameters in .csv file, predict the price of the car.
+
+Target variable: Price
+
+Print out:
+    i. predictions for testing set
+    ii. accuracy score
+    iii. prediction for one random input
