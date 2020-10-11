@@ -1,0 +1,25 @@
+Logistic regression:
+It is a statistical model that in its basic form uses a logistic function to model a binary dependent variable.
+At its core, it uses the logistic function, also called sigmoid function. 
+It was developed by statisticians to describe properties of population growth in ecology, rising quickly and maxing out at the carrying capacity of the environment.
+
+It is an S-shaped curve that can take any real valued number and map it into a value between 1 and 0, but never exactly 1 or 0.
+
+1 / (1 + e^-value)
+where e = base of natural logs
+
+It is very similar to linear regression - it uses an equation as the representation. 
+Input values (x) are combined linearly using weights or coefficient values to predict an output value (y). 
+
+A key difference from linear regression is that the output value being modeled is a binary values (0 or 1) rather than a numeric value.
+
+an example logistic regression equation:
+y = e^(b0 + b1*x) / (1 + e^(b0 + b1*x))
+where:
+y = predicted output
+b0, b1 = coefficient for single input value x
+x = input value
+
+Logistic regression models the probability of the default class.
+Logistic regression is a linear method, but the predictions are transformed using the logistic function. 
+The impact of this is that we can no longer understand the predictions as a linear combination of the inputs as we can with linear regression.
