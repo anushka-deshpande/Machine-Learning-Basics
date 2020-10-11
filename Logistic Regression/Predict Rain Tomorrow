@@ -1,0 +1,10 @@
+Will it rain tomorrow?
+
+The target variable in the given Dataset is RainTomorrow means: Did it rain the next day? Yes or No. 
+1. Split the data into Training and Testing parts:  80% for training and 20% for testing. 
+2. Note down following points: 
+    i)     accuracy and confusion matrix 
+    ii)    predict RainTomorrow by giving inputs:
+           first input      :  [4,17.9,35.2,0,12,12.3,11,48,1,12,6,20,20,13,1006.3,1004.4,2,5,26.6,33.4,0] 
+           second input:  [15.0,46.0,23.0,1008.6,1008.3,2.0,6.0,28.1,33.2,1,5963,4,19.7,37.3,0.0,14.2,13.4,11,28.0,9,1] 
+    iii)   Try new prediction by giving unknown inputs to the model and get predicted output 
