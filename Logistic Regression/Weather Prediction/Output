@@ -1,0 +1,35 @@
+
+         Date Location  MinTemp  ...  RainToday  RISK_MM  RainTomorrow
+0  01/12/2008   Albury     13.4  ...         No      0.0            No
+1  02/12/2008   Albury      7.4  ...         No      0.0            No
+2  03/12/2008   Albury     12.9  ...         No      0.0            No
+3  04/12/2008   Albury      9.2  ...         No      1.0            No
+4  05/12/2008   Albury     17.5  ...         No      0.2            No
+
+[5 rows x 24 columns]
+(142193, 24)
+             MinTemp        MaxTemp  ...        Temp3pm        RISK_MM
+count  140093.000000  140405.000000  ...  138002.000000  140727.000000
+mean       12.164958      23.153292  ...      21.610214       2.377139
+std         6.387259       7.074520  ...       6.891343       8.507090
+min        -8.500000      -4.800000  ...      -5.400000       0.000000
+25%         7.600000      17.900000  ...      16.600000       0.000000
+50%        12.000000      22.600000  ...      21.100000       0.000000
+75%        16.800000      28.100000  ...      26.300000       0.800000
+max        33.900000      48.100000  ...      46.700000     371.000000
+
+[8 rows x 17 columns]
+            Date  Location  MinTemp  ...  RainToday  RISK_MM  RainTomorrow
+5939  01/01/2009         4     17.9  ...          0      0.0             0
+5940  02/01/2009         4     18.4  ...          0      0.0             0
+5942  04/01/2009         4     19.4  ...          0      0.0             0
+5943  05/01/2009         4     21.9  ...          0      0.0             0
+5944  06/01/2009         4     24.2  ...          0      0.0             0
+
+[5 rows x 24 columns]
+[0 0 0 ... 0 0 0]
+Accuracy Score is:  0.8520028358738037
+Confusion Dataframe is: 
+                  Predicted Negative  Predicted Positive
+Actual Negative                8296                 493
+Actual Positive                1177                1318
