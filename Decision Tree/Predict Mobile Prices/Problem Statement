@@ -1,0 +1,17 @@
+Question:
+We are given a dataset called Mobile_Dataset.
+
+The target variable in the dataset is: price_range
+It has 4 categories:
+ 0 - Very low
+ 1 - Low
+ 2 - High
+ 3 - Very high
+
+Task is to:
+    1. Split the data into training and testing parts :  80% for training and 20% for testing.
+    2. Note down the output of your program for the following : 
+        i. Accuracy
+        ii. confusion matrix
+        iii. Prediction for feature matrix :
+              [842,0,2.2,0,1,0,7,0.6,188,2,2,20,756,2549,9,7,19,0,0,1 ]
