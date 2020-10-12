@@ -1,0 +1,23 @@
+Decision Tree Algorithm:
+
+A decision tree is a structure similar to a flow-chart in which:
+    1. each internal node is a test on a feature of input values
+    2. each leaf node represents a decision taken on the output (known as class label)
+
+The path from the root to the leaf node represents the classification rules.
+
+Decision trees are constructed via algorithmic approach that identifies ways to split data based different conditions. 
+It is classified as "Supervised Learning" - "non-parametric Supervised Learning" to be exact.
+
+There are 2 types of decision models:
+    1. when variable can take discrete values: called classification trees
+    2. when variable has continuous values (real numbers): called regression trees
+
+Advantages:
+    1. Easy to use and understand
+    2. can handle both types of data (categorical and numeric)
+    3. requires little to none data preprocessing
+
+Disadvantages:
+    1. Prone to overfitting
+    2. Can create biased learning trees if some classes dominate
