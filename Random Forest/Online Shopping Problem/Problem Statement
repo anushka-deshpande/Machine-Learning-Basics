@@ -1,0 +1,12 @@
+Question:
+
+The given dataset is called Shoppind_Dataset.
+The target variable is Revenue - that is a true false value of whether the customer can generate revenue
+Perform the following operations:
+    1. Split the data into training and testing parts :  80% for training and 20% for testing.
+    2. Note down the output of your program for the following :
+        i. Accuracy
+        ii. Confusion Matrix
+        iii. Prediction Revenue for feature matrix :
+            Input 1 : [0.0,0.0,0.0,0.0,0.1,0.0,0.5,0.2,0.0,0.0,2,1,1,1,1,2,0] 
+            Input 2 : [4.0,75.0,0.0,0.0,15.0,346.000000,0.000000,0.021053,0.000000,0.0,7,2,2,3,11,2,0]
