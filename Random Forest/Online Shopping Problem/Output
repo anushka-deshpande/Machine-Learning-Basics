@@ -1,0 +1,86 @@
+Head:
+    Administrative  Administrative_Duration  ...  Weekend  Revenue
+0             0.0                      0.0  ...    False    False
+1             0.0                      0.0  ...    False    False
+2             0.0                     -1.0  ...    False    False
+3             0.0                      0.0  ...    False    False
+4             0.0                      0.0  ...     True    False
+
+[5 rows x 18 columns]
+Is null: 
+ Administrative             14
+Administrative_Duration    14
+Informational              14
+Informational_Duration     14
+ProductRelated             14
+ProductRelated_Duration    14
+BounceRates                14
+ExitRates                  14
+PageValues                  0
+SpecialDay                  0
+Month                       0
+OperatingSystems            0
+Browser                     0
+Region                      0
+TrafficType                 0
+VisitorType                 0
+Weekend                     0
+Revenue                     0
+dtype: int64
+Data types: 
+ Administrative             float64
+Administrative_Duration    float64
+Informational              float64
+Informational_Duration     float64
+ProductRelated             float64
+ProductRelated_Duration    float64
+BounceRates                float64
+ExitRates                  float64
+PageValues                 float64
+SpecialDay                 float64
+Month                       object
+OperatingSystems             int64
+Browser                      int64
+Region                       int64
+TrafficType                  int64
+VisitorType                 object
+Weekend                       bool
+Revenue                       bool
+dtype: object
+New Data Head: 
+    Administrative  Administrative_Duration  ...  Weekend  Revenue
+0             0.0                      0.0  ...        0        0
+1             0.0                      0.0  ...        0        0
+2             0.0                     -1.0  ...        0        0
+
+[3 rows x 18 columns]
+Description:
+        Administrative  Administrative_Duration  ...       Weekend       Revenue
+count    12330.000000             12330.000000  ...  12330.000000  12330.000000
+mean         2.316302                80.823396  ...      0.232603      0.154745
+std          3.321163               176.777041  ...      0.422509      0.361676
+min          0.000000                -1.000000  ...      0.000000      0.000000
+25%          0.000000                 0.000000  ...      0.000000      0.000000
+50%          1.000000                 8.000000  ...      0.000000      0.000000
+75%          4.000000                93.256250  ...      0.000000      0.000000
+max         27.000000              3398.750000  ...      1.000000      1.000000
+
+[8 rows x 18 columns]
+X tail: 
+        Administrative  Administrative_Duration  ...  VisitorType  Weekend
+12325             3.0                    145.0  ...            2        1
+12326             0.0                      0.0  ...            2        1
+12327             0.0                      0.0  ...            2        1
+12328             4.0                     75.0  ...            2        0
+12329             0.0                      0.0  ...            0        1
+
+[5 rows x 17 columns]
+Predictions: 
+ [0 0 1 ... 0 0 0]
+Accuracy:  0.889294403892944
+Confusion Dataframe: 
+           Predicted 0  Predicted 1
+Actual 0         1979          197
+Actual 1           76          214
+New prediction 1:  [0]
+New prediction 2:  [0]
