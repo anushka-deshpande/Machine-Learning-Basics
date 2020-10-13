@@ -1,0 +1,24 @@
+The Random Forest Classifier:
+
+As th name suggests, it consists of a large number of individual decision trees. 
+Each tree in the forest predicts an output and the most common output becomes the final prediction of the model.
+
+The fundamental concept being wisdom of crowds!
+
+In data science terms:
+A large number of relatively uncorrelated models (trees) operating as a committee will outperform any of the individual constituent models.
+
+The low correlation is the key to the success of this model.
+Uncorrelated models can produce a variety of predictions, mor accurate than any individual prediction.
+The trees protect each other from their individual errors as long as they all dont constantly err in the same direction.
+
+Prerequisites for a random forest:
+    1. There needs to be some actual signal in features, so that models can be built using those features rather than a random guess work.
+    2. The predictions made by individual trees has to have low correlations with each other.
+    
+A point to note is that decision trees are very sensitive to data that they are trained on.
+Small changes in training set result in significantly different tree structures. 
+
+To quote in data science language:
+The random forest is a classification algorithm consisting of many decisions trees. 
+It uses bagging and feature randomness when building each individual tree to try to create an uncorrelated forest of trees whose prediction by committee is more accurate than that of any individual tree.
