@@ -1,0 +1,17 @@
+SVN - Support Vector Machine
+
+The objective of the support vector machine algorithm is to find a hyper-plane in an N-dimension that distinctly classifies the data points.
+Here, N is the number of features.
+
+To separate the two classes of data points, there are many possible hyper-planes that can be chosen.
+The objective is to choose the plane that is the farthest from from both classes - that is it has the maximum margin.
+
+These hyperplanes are are decision boundaries which help to classify the data. 
+The dimension depends on the number of input features. 
+If number of input features is 2, the hyper plane is a line, and if input features are 3, the hyperplane becomes a two-dimensional plane.
+It is difficult to imagine the hyper-planes when the number of input features is more than 3.
+
+Support vectors - these are data points that are close to the hyperplanes. 
+We can maximise the margin of the classifier using these points.
+Deleting these points can be harmful as this will change the position of the hyperplane.
+
