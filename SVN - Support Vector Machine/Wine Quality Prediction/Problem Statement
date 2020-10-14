@@ -1,0 +1,22 @@
+Details of the Dataset:
+Input variables (based on physicochemical tests):
+1 - fixed acidity
+2 - volatile acidity
+3 - citric acid
+4 - residual sugar
+5 - chlorides
+6 - free sulfur dioxide
+7 - total sulfur dioxide
+8 - density
+9 - pH
+10 - sulphates
+11 - alcohol
+Output variable (based on sensory data):
+12 - quality (score between 0 and 10)
+
+Predict for the following values after using SVN to train the model:
+    1. [11.1,0.100,0.99,4,0.99,1,2,0.1,1,0.50,9]
+    2. [10,0.41,0.45,6.2,0.071,6,14,0.99702,3.21,0.49,11.8]
+Print out:
+    1. confusion heatmap
+    2. accuracy score
