@@ -1,0 +1,91 @@
+Size of database:
+ (1599, 12)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1599 entries, 0 to 1598
+Data columns (total 12 columns):
+ #   Column                Non-Null Count  Dtype  
+---  ------                --------------  -----  
+ 0   fixed acidity         1599 non-null   float64
+ 1   volatile acidity      1599 non-null   float64
+ 2   citric acid           1599 non-null   float64
+ 3   residual sugar        1599 non-null   float64
+ 4   chlorides             1599 non-null   float64
+ 5   free sulfur dioxide   1599 non-null   float64
+ 6   total sulfur dioxide  1599 non-null   float64
+ 7   density               1599 non-null   float64
+ 8   pH                    1599 non-null   float64
+ 9   sulphates             1599 non-null   float64
+ 10  alcohol               1599 non-null   float64
+ 11  quality               1599 non-null   int64  
+dtypes: float64(11), int64(1)
+memory usage: 150.0 KB
+Infor about dataset: 
+ None
+First 5 entries: 
+    fixed acidity  volatile acidity  citric acid  ...  sulphates  alcohol  quality
+0            7.4              0.70         0.00  ...       0.56      9.4        5
+1            7.8              0.88         0.00  ...       0.68      9.8        5
+2            7.8              0.76         0.04  ...       0.65      9.8        5
+3           11.2              0.28         0.56  ...       0.58      9.8        6
+4            7.4              0.70         0.00  ...       0.56      9.4        5
+
+[5 rows x 12 columns]
+More info: 
+        fixed acidity  volatile acidity  ...      alcohol      quality
+count    1599.000000       1599.000000  ...  1599.000000  1599.000000
+mean        8.319637          0.527821  ...    10.422983     5.636023
+std         1.741096          0.179060  ...     1.065668     0.807569
+min         4.600000          0.120000  ...     8.400000     3.000000
+25%         7.100000          0.390000  ...     9.500000     5.000000
+50%         7.900000          0.520000  ...    10.200000     6.000000
+75%         9.200000          0.640000  ...    11.100000     6.000000
+max        15.900000          1.580000  ...    14.900000     8.000000
+
+[8 rows x 12 columns]
+Printing number ofvalues for quality: 
+ bad     1382
+good     217
+Name: quality, dtype: int64
+y: 
+ [0 0 0 ... 0 0 0]
+X_test: 
+       fixed acidity  volatile acidity  citric acid  ...    pH  sulphates  alcohol
+1109           10.8             0.470         0.43  ...  3.17       0.76     10.8
+1032            8.1             0.820         0.00  ...  3.36       0.53      9.6
+1002            9.1             0.290         0.33  ...  3.26       0.84     11.7
+487            10.2             0.645         0.36  ...  3.17       0.42     10.0
+979            12.2             0.450         0.49  ...  3.13       0.63     10.4
+...             ...               ...          ...  ...   ...        ...      ...
+794            10.1             0.270         0.54  ...  3.17       0.53     12.5
+813             6.9             0.390         0.24  ...  3.44       0.58     11.4
+1322            9.1             0.340         0.42  ...  3.18       0.55     11.4
+704             9.1             0.765         0.04  ...  3.29       0.54      9.7
+1023            8.2             0.320         0.42  ...  3.27       0.55     12.3
+
+[320 rows x 11 columns]
+y_test: 
+2,  [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 0
+ 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0
+ 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 0 0 1 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+Predictions: 
+ [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+Accuracy: 
+ 0.91875
+New prediction 1: 
+ [0]
+New prediction 2: 
+ [0]
