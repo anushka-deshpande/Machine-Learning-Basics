@@ -1,0 +1,11 @@
+Question:
+
+Given the Dataset: Dataset_Avocado.csv
+The target variable is "Type" which defines the type of the avocado - Conventional, organic, etc.
+What to to:
+    1. Split the data into training and testing parts :  80% for training and 20% for testing.
+    2. Note down the output for the following : 
+        i. Accuracy 
+        ii. Confusion Matrix
+        iii. Prediction Type for feature matrix :
+            [1.33,64236.62,1036.74,54454.85,48.16,8696.87,8603.62,93.25,0.0,0,0]
