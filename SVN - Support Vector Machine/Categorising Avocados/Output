@@ -1,0 +1,61 @@
+Tail: 
+        Unnamed: 0        Date  AveragePrice  ...     type  year            region
+18240           3  2018-03-04          1.54  ...  organic  2018  WestTexNewMexico
+18241           4  2018-02-25          1.57  ...  organic  2018  WestTexNewMexico
+18242           5  2018-02-18          1.56  ...  organic  2018  WestTexNewMexico
+18243           6  2018-02-11          1.57  ...  organic  2018  WestTexNewMexico
+18244           7  2018-02-04          1.63  ...  organic  2018  WestTexNewMexico
+18245           8  2018-01-28          1.71  ...  organic  2018  WestTexNewMexico
+18246           9  2018-01-21          1.87  ...  organic  2018  WestTexNewMexico
+18247          10  2018-01-14          1.93  ...  organic  2018  WestTexNewMexico
+18248          11  2018-01-07          1.62  ...  organic  2018  WestTexNewMexico
+
+[9 rows x 14 columns]
+
+Shape:  (18249, 14)
+
+Head:
+    AveragePrice  Total Volume     4046  ...          type  year  region
+0          1.33      64236.62  1036.74  ...  conventional  2015  Albany
+1          1.35      54876.98   674.28  ...  conventional  2015  Albany
+2          0.93     118220.22   794.70  ...  conventional  2015  Albany
+
+[3 rows x 12 columns]
+
+Description: 
+        AveragePrice  Total Volume  ...    XLarge Bags          year
+count  18249.000000  1.824900e+04  ...   18249.000000  18249.000000
+mean       1.405978  8.506440e+05  ...    3106.426507   2016.147899
+std        0.402677  3.453545e+06  ...   17692.894652      0.939938
+min        0.440000  8.456000e+01  ...       0.000000   2015.000000
+25%        1.100000  1.083858e+04  ...       0.000000   2015.000000
+50%        1.370000  1.073768e+05  ...       0.000000   2016.000000
+75%        1.660000  4.329623e+05  ...     132.500000   2017.000000
+max        3.250000  6.250565e+07  ...  551693.650000   2018.000000
+
+[8 rows x 10 columns]
+
+Type Value Counts: 
+ conventional    9126
+organic         9123
+Name: type, dtype: int64
+
+Head:
+    AveragePrice  Total Volume     4046  ...  type  year  region
+0          1.33      64236.62  1036.74  ...     0     0       0
+1          1.35      54876.98   674.28  ...     0     0       0
+2          0.93     118220.22   794.70  ...     0     0       0
+
+[3 rows x 12 columns]
+
+Predictions: 
+ [1 0 1 ... 1 1 1]
+
+Accuracy:  0.9347945205479452
+
+Confusion Dataframe: 
+           Predicted 0  Predicted 1
+Actual 0         1612           75
+Actual 1          163         1800
+
+New prediction:  [0]
