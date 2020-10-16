@@ -1,0 +1,27 @@
+The K-Nearest Neighbor Algorithm:
+
+It is a simple, easy to implement algorithm which comes under the category of supervised machine learning.
+It can be used to solve both classification and regression problems.
+
+The main assumption made by the KNN algorithm is that similar things exist in close proximity, i.e. similar things are close to one another. (Famous saying: Birds of a feather flock together)
+
+The algorithm captures this idea of proximity by calculating the distance between two points on a graph. 
+There are many wayx of calculating this distance, but the Euclidean distance (straight-line distance) is most popular.
+
+Here, K is an integer value selected by the user which stands of the number od nearest neighbors.
+
+How to choose the right value for K?
+We run the algorithm several times for various values of K, and select that value which reduces the number of errors we encounter while maintaining the algorithms ability to make accurate predictions. 
+
+Things to remember:
+    1. As value of K decreases to 1, the predictions become less stable. 
+    2. Inversely, increasing value of K makes our predictions more stable due to majority voting and averaging. This is true up to a certain point, after which again errors are noticable. 
+    3. If we are taking majority voting, value of K is kept odd to have a tiebreaker. 
+    
+Advantages:
+    1. Siple and easy to implement
+    2. No need to build a model, tune parameters or make additional assumptions
+    3. Versatile algorithm, can be used for classification, regression and search.
+    
+Dsadvantages:
+    1. Speed reduces significantly as number of examples or independent variables increase. 
