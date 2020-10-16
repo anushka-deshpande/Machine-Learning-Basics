@@ -1,0 +1,10 @@
+Question:
+In this case study, data set has employee and his job related attributes based on survey. 
+We have to decide whether the employee will leave the organization or not?
+
+The target variable is: Attrition
+
+Print the following values along with it:
+    1. Accuracy score prediction
+    2. Make a new prediction for the following data:
+        [9,2,312,1,1,0,3,0,1,10,2,0,2,1,1,399,846,9,0,1,0,3,1,6,3,2,2,2,2,2]
