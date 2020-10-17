@@ -1,0 +1,12 @@
+Use the dataset - "Datset_Play.csv" to predict whether it is possible to play outside based on the weather input!
+The target variable is "Play".
+
+What to do:
+    1. Split the data into training and testing parts :  80% for training and 20% for testing.
+    2. Train the model using KNN and note down the output of your program for the following :
+        i. Accuracy
+        ii. Confusion Matrix
+        iii. Prediction Play for feature matrix :
+              Prediction 1: [1,2,2,1]  
+              Prediction 2: [0,1,1,0]
+              Prediction 3: [1,2,1,1]
