@@ -1,0 +1,72 @@
+Head: 
+     outlook temperature humidity  windy play
+0  overcast         hot     high  False  yes
+1  overcast        cool   normal   True  yes
+2  overcast        mild     high   True  yes
+3  overcast         hot   normal  False  yes
+4     rainy        mild     high  False  yes
+
+X head: 
+     outlook temperature humidity  windy
+0  overcast         hot     high  False
+1  overcast        cool   normal   True
+2  overcast        mild     high   True
+3  overcast         hot   normal  False
+4     rainy        mild     high  False
+
+y head: 
+ 0    yes
+1    yes
+2    yes
+3    yes
+4    yes
+Name: play, dtype: object
+
+New X head: 
+    outlook  temperature  humidity  windy
+0        0            1         0      0
+1        0            0         1      1
+2        0            2         0      1
+3        0            1         1      0
+4        1            2         0      0
+
+Y:
+ [1 1 1 1 1 1 0 1 0 0 0 0 1 1]
+
+Type of y:  <class 'numpy.ndarray'>
+Type of X:  <class 'pandas.core.frame.DataFrame'>
+
+Description:         outlook temperature humidity  windy play
+count       14          14       14     14   14
+unique       3           3        2      2    2
+top      sunny        mild     high  False  yes
+freq         5           6        7      8    9
+
+Test predictions: 
+ [0 1 1]
+
+Confusion Matrix: 
+ [[1 1]
+ [0 1]]
+
+Classification Report: 
+               precision    recall  f1-score   support
+
+           0       1.00      0.50      0.67         2
+           1       0.50      1.00      0.67         1
+
+    accuracy                           0.67         3
+   macro avg       0.75      0.75      0.67         3
+weighted avg       0.83      0.67      0.67         3
+
+
+Accuracy:  0.6666666666666666
+
+Input:  [1, 2, 2, 1]
+New Predictions:  [1]
+
+Input:  [0, 1, 1, 0]
+New Predictions:  [1]
+
+Input:  [1, 2, 1, 1]
+New Predictions:  [0]
