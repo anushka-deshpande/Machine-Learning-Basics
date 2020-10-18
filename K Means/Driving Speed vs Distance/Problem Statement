@@ -1,0 +1,11 @@
+Question:
+
+Use the K-Means algorithm on the given dataset: Dataset_Driver.csv
+Note: 
+As this is clustering algorithm it does not contain target variable.
+
+What to do: 
+    1. You have to form the clusters using k-means algorithm.
+    2. When the data is partitioned into clusters and you get additional new column convert that dataframe to new csv.
+
+Print out the head and tail of the new dataset formed.
