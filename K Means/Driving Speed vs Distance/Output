@@ -1,0 +1,38 @@
+Head:
+    Distance_Feature  Speeding_Feature
+0             71.24                28
+1             52.53                25
+2             64.54                27
+3             55.69                22
+4             54.58                25
+
+Scaled_df: 
+ [[-0.0898104   1.26061251]
+ [-0.43977285  1.04174351]
+ [-0.215131    1.18765617]
+ [-0.38066642  0.8228745 ]
+ [-0.40142849  1.04174351]]
+
+Result Labels: 
+ [2 2 2 ... 1 1 1]
+
+Predictions: 
+ [2 2 2 2 2]
+
+New Dataframe head: 
+         Distance_Feature  Speeding_Feature category
+Number                                             
+0                  71.24                28        C
+1                  52.53                25        C
+2                  64.54                27        C
+3                  55.69                22        C
+4                  54.58                25        C
+
+New Dataframe tail: 
+         Distance_Feature  Speeding_Feature category
+Number                                             
+3995              160.04                10        B
+3996              176.17                 5        B
+3997              170.91                12        B
+3998              176.14                 5        B
+3999              168.03                 9        B
