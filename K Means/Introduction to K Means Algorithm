@@ -1,0 +1,24 @@
+K-Means Clustering Algorithm:
+
+It is one of the easiest and popluar unsupervised machine learning algorithms.
+Unsupervised algorithms make inferences from datasets using only the input vectors without using the outputs.
+
+According to AndreyBu:
+“the objective of K-means is simple: group similar data points together and discover underlying patterns. To achieve this objective, K-means looks for a fixed number (k) of clusters in a dataset.”
+
+A cluster is a collection of data points lying together due to certain similarities.
+We define a value K, which refers o the number of centroids we need in the dataset.
+The "means" in the title implies that the data will be averaged to find the centroid.
+
+How it works:
+
+The algorithm starts with a randomly located centroids used as starting points for all clusters. 
+The it performs repetitive calculations to optimise the positions of these centroids. 
+
+This process of optimisation of locations is stopped when:
+    1. teh centroids have stabilised
+    2. the defined number of iterations have been achieved
+   
+It is easy to understand and delivers results quickly. 
+The disadvantage is that its performance is not as competitive as those of the other clustering algorithms. 
+Also, clusters are assumed to be circles or spheres; this can affect the accuracy of the result. 
