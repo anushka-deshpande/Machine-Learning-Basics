@@ -1,0 +1,29 @@
+Question: Apply Kmeans clustering to divide the customers into various clusters based on their brand loyalty score and price sensitivity score
+
+Suppose, Amazon wants to divide its customers based on the brand and price of the product they purchase. 
+They want to know how many prefer Brands and how many prefer Price. 
+So that they will offer their product to the respective types of customers accordingly.
+Some customers prefer a Branded product without giving importance to its price. 
+Some customers prefer Cheap priced products without giving importance to their brand. 
+Some customers give importance to both Price and brand of the product and then proceed to purchase.
+
+Customers who give importance to price are: Price sensitive 
+Customers who give importance to Brand are: Loyal to Brand
+
+In this dataset, we have the customers Price sensitivity score and Brand loyalty Score.
+So Dataset has two columns: 
+    1. brand_loyality_score
+    2. price_sensitivity_score. 
+
+Each row contains the brand loyalty score and price sensitivity score based on their expenditure. 
+Both thefeature have values on a scale of 1-10. 
+
+Now We can see that we have brand_loyality_score and price_sensitivity_score which we can take as our feature variable. 
+But we dont have a label variable or target variable. 
+
+So this is the problem of unsupervised ML algorithms.
+Thats why we are using K-means in this case.
+
+Task is to use the K-means algorithm to divide the customer base.
+Predict the cluster for the following new data:
+   [9.3,5.36]
