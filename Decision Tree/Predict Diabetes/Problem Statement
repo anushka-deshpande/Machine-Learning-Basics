@@ -1,0 +1,21 @@
+Question: Predict whether a person will have diabetes in the future or not using the given dataset - Dataset_Diabetes.csv
+
+Details about the dataset:
+    1. Pregnancies decribes the number of times the person has been pregnant.
+    2. Gluose describes the blood glucose level on testing.
+    3. Blood pressure describes the diastolic blood pressure.
+    4. Skin Thickenss describes the skin fold thickness of the triceps.
+    5. Insulin describes the amount of insulin in a 2-hour serum test.
+    6. BMI describes the body mass index.
+    7. DiabetesPedigreeFunction describes the family history of the person.
+    8. Age describes the age of the person
+    9. Outcome describes if the person is predicted to have diabetes or not.
+
+Note that: The dataset has no missing values and thus, filling up the dataset using algorithms will not be necessary.
+
+what to do:
+    1. use the Decision Tree model to predict whether the individual will have diabetes.
+    2. Split the data into training and testing - 80% for training and 20% for testing
+    3. Print out the accuracy score of the model
+    4. Predict for the following data:
+        [6,148,72,35,0,33.6,0.627,50]
