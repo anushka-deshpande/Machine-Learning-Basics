@@ -1,0 +1,38 @@
+Head: 
+    Pregnancies  Glucose  BloodPressure  ...  DiabetesPedigreeFunction  Age  Outcome
+0            6      148             72  ...                     0.627   50        1
+1            1       85             66  ...                     0.351   31        0
+2            8      183             64  ...                     0.672   32        1
+3            1       89             66  ...                     0.167   21        0
+4            0      137             40  ...                     2.288   33        1
+
+[5 rows x 9 columns]
+
+Predictions: 
+ [1 0 0 1 0 0 1 0 0 1 1 0 0 0 0 1 1 0 0 0 1 0 0 1 0 1 0 0 0 0 0 0 1 0 0 1 0
+ 0 1 1 1 0 0 1 0 0 0 0 1 0 1 1 1 1 0 0 0 1 0 0 0 1 0 1 1 1 0 0 0 0 0 0 0 1
+ 1 0 1 1 0 0 1 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 1 1 0 0 0 0 1 1 0 0 0 1 0
+ 1 1 1 1 0 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 0 1 1 0 0 1 0 0 1 0 0 0
+ 0 0 0 0 0 0]
+
+Datatype of Predictions:  <class 'numpy.ndarray'>
+
+Classifier Score:  0.73633
+
+Mean absolute Error:  0.23376623376623376
+
+Accuracy Score:  0.7662337662337663
+
+**Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.84      0.81      0.83       107
+           1       0.61      0.66      0.63        47
+
+    accuracy                           0.77       154
+   macro avg       0.73      0.74      0.73       154
+weighted avg       0.77      0.77      0.77       154
+
+
+New Predictions: 
+ [1]
