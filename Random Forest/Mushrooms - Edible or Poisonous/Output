@@ -1,0 +1,123 @@
+number of null values: 
+ class                       0
+cap-shape                   0
+cap-surface                 0
+cap-color                   0
+bruises                     0
+odor                        0
+gill-attachment             0
+gill-spacing                0
+gill-size                   0
+gill-color                  0
+stalk-shape                 0
+stalk-root                  0
+stalk-surface-above-ring    0
+stalk-surface-below-ring    0
+stalk-color-above-ring      0
+stalk-color-below-ring      0
+veil-type                   0
+veil-color                  0
+ring-number                 0
+ring-type                   0
+spore-print-color           0
+population                  0
+habitat                     0
+dtype: int64
+Dataset Properties: 
+        class cap-shape cap-surface  ... spore-print-color population habitat
+count   8124      8124        8124  ...              8124       8124    8124
+unique     2         6           4  ...                 9          6       7
+top        e         x           y  ...                 w          v       d
+freq    4208      3656        3244  ...              2388       4040    3148
+
+[4 rows x 23 columns]
+X-Head: 
+   cap-shape cap-surface cap-color  ... spore-print-color population habitat
+0         x           s         n  ...                 k          s       u
+1         x           s         y  ...                 n          n       g
+2         b           s         w  ...                 n          n       m
+3         x           y         w  ...                 k          s       u
+4         x           s         g  ...                 n          a       g
+
+[5 rows x 22 columns]
+X-head: 
+    cap-shape  cap-surface  cap-color  ...  spore-print-color  population  habitat
+0          5            2          4  ...                  2           3        5
+1          5            2          9  ...                  3           2        1
+2          0            2          8  ...                  3           2        3
+3          5            3          8  ...                  2           3        5
+4          5            2          3  ...                  3           0        1
+
+[5 rows x 22 columns]
+y:
+ [1 0 0 ... 0 1 0]
+Data Types of X:
+ cap-shape                   int32
+cap-surface                 int32
+cap-color                   int32
+bruises                     int32
+odor                        int32
+gill-attachment             int32
+gill-spacing                int32
+gill-size                   int32
+gill-color                  int32
+stalk-shape                 int32
+stalk-root                  int32
+stalk-surface-above-ring    int32
+stalk-surface-below-ring    int32
+stalk-color-above-ring      int32
+stalk-color-below-ring      int32
+veil-type                   int32
+veil-color                  int32
+ring-number                 int32
+ring-type                   int32
+spore-print-color           int32
+population                  int32
+habitat                     int32
+dtype: object
+X-train:
+ [[-0.23108882  0.1369207  -0.98259822 ...  1.41971739  0.2873423
+  -0.87717719]
+ [ 1.01940764  0.1369207  -0.19967591 ...  1.41971739  0.2873423
+   1.44374884]
+ [-0.85633705  0.95105395 -0.98259822 ...  1.41971739  0.2873423
+   0.28328582]
+ ...
+ [-0.85633705  0.95105395 -0.19967591 ... -0.25581597  1.08165859
+   1.44374884]
+ [-0.23108882  0.1369207  -0.98259822 ...  1.41971739  0.2873423
+   1.44374884]
+ [-0.23108882 -1.4913458  -0.59113706 ...  1.41971739 -1.30129029
+  -0.29694568]]
+Type of X_train:
+ <class 'numpy.ndarray'>
+X-test: 
+ [[-0.85633705 -1.4913458  -0.19967591 ... -0.25581597 -0.50697399
+  -0.29694568]
+ [-0.85633705  0.1369207  -0.98259822 ...  1.41971739  0.2873423
+   0.28328582]
+ [ 1.01940764  0.95105395 -0.19967591 ...  1.41971739  0.2873423
+   0.28328582]
+ ...
+ [ 1.01940764  0.95105395 -0.19967591 ...  1.41971739  0.2873423
+   1.44374884]
+ [-0.23108882  0.95105395 -0.19967591 ...  1.41971739  0.2873423
+   1.44374884]
+ [ 1.01940764 -1.4913458   1.75762986 ... -1.09358265  1.08165859
+   1.44374884]]
+Accuracy: 1.0
+
+**Classification Report:
+               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       843
+           1       1.00      1.00      1.00       782
+
+    accuracy                           1.00      1625
+   macro avg       1.00      1.00      1.00      1625
+weighted avg       1.00      1.00      1.00      1625
+
+New Predictions: 
+ [0]
+New Predictions: 
+ [1]
